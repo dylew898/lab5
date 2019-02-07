@@ -17,7 +17,6 @@ function initializePage() {
 function anagrammedName(name) {
 	// Thanks, Internet Anagram Server!
 	
-	$(this).text(name);
 
 	if (name == "Doug Engelbart") {
 		return "Notable Grudge";
